@@ -13,3 +13,5 @@ if (sum <= 20) {
 } else {
     console.log("You are out of the game! 👎")
 }
+
+console.log(hasBlackJack);
