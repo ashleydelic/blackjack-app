@@ -22,5 +22,7 @@ width: 150px;
 background: goldenrod;
 padding: 5px;
 font-weight: bold;
+border: none;
+border-radius: 5px;
 }
 
