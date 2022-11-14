@@ -1,7 +1,7 @@
-let firstCard = 1;
+let firstCard = 9;
 let secondCard = 11;
 let hasBlackJack = false;
-let isActive = false;
+let isActive = true;
 let message = "";
 
 let sum = firstCard + secondCard;
@@ -17,7 +17,7 @@ function startGame() {
         hasBlackJack = true;
     } else {
         message = "You are out of the game! 👎";
-        isActive = true;
+        isActive = false;
     }
     
     console.log(message)
