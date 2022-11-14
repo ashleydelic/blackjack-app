@@ -3,9 +3,9 @@ let secondCard = 11;
 let hasBlackJack = false;
 let isActive = true;
 let message = "";
-
 let sum = firstCard + secondCard;
 console.log(sum);
+let meesageEl = document.getElementById("message-el");
 
 
 
@@ -21,6 +21,7 @@ function startGame() {
     }
     
     console.log(message)
+    meesageEl.textContent = message
 }
 
 startGame();
