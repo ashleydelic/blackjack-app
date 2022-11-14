@@ -24,7 +24,7 @@ function startGame() {
         message = "You are out of the game!";
         isActive = false;
     }
-    
+    meesageEl.textContent = message;
 }
 
 function newCard() {
