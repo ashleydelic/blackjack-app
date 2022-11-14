@@ -7,7 +7,7 @@ let message = "";
 
 
 let meesageEl = document.getElementById("message-el");
-let sumEL = document.getElementById("sum-el");
+let sumEL = document.querySelector("#sum-el");
 
 
 
