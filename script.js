@@ -1,10 +1,11 @@
-let firstCard = 9;
-let secondCard = 11;
+let firstCard = 10;
+let secondCard = 4;
+let sum = firstCard + secondCard;
 let hasBlackJack = false;
 let isActive = true;
 let message = "";
-let sum = firstCard + secondCard;
-console.log(sum);
+
+
 let meesageEl = document.getElementById("message-el");
 let sumEL = document.getElementById("sum-el");
 
@@ -21,8 +22,6 @@ function startGame() {
         message = "You are out of the game!";
         isActive = false;
     }
-    
-    console.log(message)
     
 }
 
