@@ -13,7 +13,7 @@ function startGame() {
     if (sum <= 20) {
         message = "Do you want to draw a new card?"
     } else if (sum === 21) {
-        message = "Wooho! You've got Blackjack!";
+        message = "You've got Blackjack!";
         hasBlackJack = true;
     } else {
         message = "You are out of the game!";
