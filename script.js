@@ -1,14 +1,21 @@
 
 let cards = [];
+
+let player = {
+    name: "You",
+    chips: 100
+}
+
 let sum = 0;
 let hasBlackJack = false;
 let isActive = false;
 let message = "";
 let meesageEl = document.getElementById("message-el");
 let sumEL = document.querySelector("#sum-el");
-let cardsEl = document.querySelector("#cards-el")
+let cardsEl = document.querySelector("#cards-el");
+let playerEL = document.getElementById("player-el");
 
-console.log(cards)
+playerEL.textContent = player.name + ": $" + player.chips
 
 function getRandomCard() {
     let randomNumber =  Math.floor ( Math.random() * 13 ) + 1;
@@ -32,6 +39,7 @@ function startGame() {
 }
 
 function renderGame() {
+    
     cardsEl.textContent = "Cards: ";
 
     for (let i = 0; i < cards.length; i++) {
