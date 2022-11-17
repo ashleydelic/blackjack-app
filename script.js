@@ -1,11 +1,9 @@
-
-let cards = [];
-
 let player = {
     name: "You",
     chips: 100
 }
 
+let cards = [];
 let sum = 0;
 let hasBlackJack = false;
 let isActive = false;
